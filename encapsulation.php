@@ -22,7 +22,7 @@ class user{
  
 $user->set_name('John');
 $user->set_password('1234');
-echo "Name is :".$user->get_name();
-echo "<br>";
+echo "Name is :".$user->get_name()."<br>";
+
 echo "Password is :".$user->get_password();
 ?>

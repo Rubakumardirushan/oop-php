@@ -11,6 +11,9 @@ class box{
     function get_volume(){
         return $this->length*$this->width*$this->height;
     }
+    function __destruct(){
+        echo "all object are destroyed";
+    }
 }
 
 $blackbox= new box(10,20,30);

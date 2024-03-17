@@ -11,5 +11,5 @@
  $car1= new car();
  $car1->set_name('black');
 
- echo ( $car1->get_carname());
+ echo "car name is :".$car1->get_carname();
 ?>

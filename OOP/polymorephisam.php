@@ -6,15 +6,14 @@ class animal{
     }
 }
 class dog extends animal{
-
     function makesound(){
-        animal::makesound(); // method override
+        animal::makesound();
         echo "dog....." . PHP_EOL;
     }
 }
 class cat extends animal{
     function makesound(){
-        animal::makesound(); // method override
+        animal::makesound();
         echo "cat....." . PHP_EOL;
     }
 }
@@ -24,7 +23,6 @@ $dog = new dog();
 $dog->makesound();
 $cat= new cat();
 $cat->makesound();
-
 
 
 ?>

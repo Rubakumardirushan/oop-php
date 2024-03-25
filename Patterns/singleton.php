@@ -16,7 +16,7 @@ class singleton{
 }
 
 $singleton= singleton::getInstance();
-//$singleton->check();
+$singleton->check();
 
 
 ?>
